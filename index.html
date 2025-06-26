@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kashaf's portflio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8821afeb8a.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body >
+    <!----NAVBAR SECTION-->
+   <div id="header">
+     <div id="particles-js"></div>
+
+    <div class="container">
+        <nav>
+
+
+            <img src="logo.png" class="logo">
+            <ul id="sidemenue">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenue()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenue()"></i>
+
+        </nav>
+        <div class="header-text">
+
+            <p><i>Mern-stack Developer</i></p>
+            <h1>Hi , I am <span>Kashaf</span></h1>
+        </div>
+    </div>
+   </div>
+
+    <!----ABOUT SECTION-->
+
+
+   <div id="about">
+ 
+    <div class="container">
+
+        <div class="row">
+            <div class="col-1">
+
+           <img src="img.jpg" class="mg" >
+            </div>
+            <div class="col-2">
+         <h1 class="abt">About <span>me</span></h1>
+
+         <br>
+         <p>
+            Proficient MERN Stack Developer with hands-on experience in building full-stack web applications using
+             MongoDB, Express.js, React.js, and Node.js. Adept at developing RESTful APIs, managing databases,and 
+             creating responsive, component-driven user interfaces. Strong command over modern JavaScript (ES6+),
+             with a solid understanding of application state, authentication flows, and deployment pipelines.
+         </p>
+         <div class="tab-titels">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+         </div> 
+         <div class="tab-contents " id="skills">
+            <ul>
+                <li><span>Web Development</span><br>Web app developing</li>
+                <li><span>UI Design & Styling</span><br>Designing Web interfaces</li>
+                <li><span>Development Tools</span><br>VS code </li>
+            </ul>
+         </div>
+ <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2021-2025</span><br>Becholar of Science in Computer Science</li>        
+            </ul>
+         </div>
+         <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>Mern-Stack intern</span><br>Plomx tech</li>               
+            </ul>
+         </div>
+            </div>
+        </div>
+    </div>
+   </div>
+                         
+                        <!----SERVICES SECTION-->
+     <div id="services">
+        
+   <div class="container">
+        <h1 class="abt">My<span> Services</span></h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Frontend Development</h2>
+        <p>I build responsive and dynamic web interfaces using React.js, HTML, CSS, and JavaScript.
+             My focus is on creating clean, user-friendly, and component-driven UIs with smooth performance
+              across all devices.</p>
+                <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+             <h2>UI/UX Design</h2>
+        <p>I design modern, visually appealing layouts that follow UI/UX best practices.
+             From wireframes to final styling with Bootstrap or Tailwind, 
+            I ensure your website not only looks great but is also easy to use.</p>
+                <a href="#">Learn More</a>
+
+        </div>
+        <div>
+            <i class="fa-solid fa-code-merge"></i>
+        <h2>API Integration</h2>
+        <p>I connect frontend interfaces with backend services using RESTful APIs. Whether it's user data, product listings, or form submissions — I ensure smooth, secure, and real-time communication between systems.</p>
+                <a href="#">Learn More</a>               
+        </div>
+        </div>
+        </div>
+        </div>
+     
+                            <!----PORTFOLIO SECTION-->
+
+   <div id="Portfolio">
+    
+  <div class="container">
+    <h1 class="port"><span>My</span> Work</h1>
+    <div class="Work-list">
+
+      <div class="work">
+        <img src="Work1.png" alt="Project 1">
+        <div class="layer">
+            <h3>     Trusted Auction System     </h3>
+            <p>Trusted Auction System </p>
+            <a href="#"></a> <i class="fa-solid fa-code"></i>
+            
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="Work2.png" alt="Project 2">
+        <div class="layer">
+            <h3>    Trusted Auction System      </h3>
+            <p>Trusted Auction System Trusted Auction System Trusted Auction System </p>
+            <a href="#"></a> <i class="fa-solid fa-code"></i>
+            
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="Work3.jpg" alt="Project 3">
+        <div class="layer">
+            <h3>    Trusted Auction System     </h3>
+            <p>i created the Frontend Trusted Auction System </p>
+            <a href="#"></a> <i class="fa-solid fa-code"></i>
+            
+        </div>
+      </div>
+
+    </div>
+     <a href="#!" class="btn">See More</a> 
+  </div>
+</div>
+
+<!----------------------contact section------------------->
+
+<div id="contact">
+  <div class="container">
+    <h1 class="section-title"><span>Contact</span> Me</h1>
+
+    <div class="contact-content">
+      <!-- LEFT SIDE -->
+      <div class="contact-info">
+        <p><i class="fa-solid fa-envelope"></i> kashaf@email.com</p>
+        <p><i class="fa-solid fa-phone"></i> +92 300 1234567</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+         <div>
+        <a href="Kashaf Parvenn CV .pdf (1).pdf" download class="btn2">Download CV Plz</a>
+      </div>
+      </div>
+      
+      <!-- RIGHT SIDE (FORM) -->
+      <div class="contact-form">
+        <form name="submit-to-google-sheet">
+          <input  name="Name" placeholder="Your Name" required />
+          <input   name="Email" placeholder="Your Email" required />
+          <textarea  name="Message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="Submit" class="btn1">Send</button>
+         
+
+        </form>
+        
+      </div>
+    </div>
+  </div>
+ 
+</div>
+ <footer class="copyright">
+    <div><p>Made by @ KASHAF PARVEEN:)</p></div>
+ </footer>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  particlesJS('particles-js',
+    {
+      "particles": {
+        "number": { "value": 40 },
+        "size": { "value": 3 },
+        "color": { "value": "#c75c5c" },
+        "line_linked": { "enable": true, "color": "#c75c5c" }
+      }
+    }
+  );
+</script>
+
+<script>
+  var side =document.getElementById("sidemenue");
+  function openmenue(){
+    side.style.right="0";
+  }
+   function closemenue(){
+    side.style.right="-150px";
+  }
+</script>
+
+   <script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+  
+  function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+   </script>
+   
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyUlg_qZFRyOHJUKNRePItVpD6DnklzDkXMsOBwIYIVohQId8IClHrqGZGq2MdVYQZL/exec';
+  const form = document.forms['submit-to-google-sheet'];
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => response.text())
+      .then(result => {
+        console.log('Success!', result);
+        alert('Form submitted successfully!');
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message));
+  });
+</script>
+
+</body>
+</html>
